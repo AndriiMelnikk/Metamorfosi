@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="./style/index.css">
+    <link rel="stylesheet" href="./style/style.css">
+    <title>Metamorfosi</title>
+
+</head>
+
+<body>
+    <header class="animate__animated" data-animate="animate__fadeInDown">
+        <div class="container">
+            <nav>
+                <div class="nav-wrapper">
+                    <a href="#home" class="brand-logo">
+                        <img src="./img/arrows/Logo.png" alt="">
+                    </a>
+                    <div class="Phone">
+                        <div class="items icons">
+                            <img class="menu" src="./img/arrows/menu.png" onclick="Menu(true)" alt="">
+                            <img class="close" src="./img/arrows/close.png" onclick="Menu(false)" alt="">
+                        </div>
+                        <div class="mobile-menu">
+                            <ul class="items">
+                                <li><a href="#home">Home</a></li>
+                                <li><a href="#pertners">Our Pertners</a></li>
+                                <li><a href="#teams">Our Team</a></li>
+                                <li><a href="#contact">Contact Us</a></li>
+                            </ul>
+                            <ul class="info">
+                                <li>
+                                    <a href="https://www.facebook.com">
+                                        <img src="./img/arrows/facebook.png" alt="">
+                                    </a>
+
+                                    <a href="https://likein.ua">
+                                        <img src="./img/arrows/IN.png" alt="">
+                                    </a>
+
+                                    <a href="http://instagram.com">
+                                        <img src="./img/arrows/instagram.png" alt="">
+                                    </a>
+
+                                    <a href="http://twitter.com">
+                                        <img src="./img/arrows/twitter.png" alt="">
+                                    </a>
+                                </li>
+                                <li>
+                                    <p>Privacy Policy</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="Pc">
+                        <ul class="items">
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#pertners">Our Pertners</a></li>
+                            <li><a href="#teams">Our Team</a></li>
+                            <li><a href="#contact">Contact Us</a></li>
+                        </ul>
+                    </div>
+
+                </div>
+            </nav>
+        </div>
+
+    </header>
+    <main>
+        <div id="modal">
+            <div>
+                <div class="close" onclick="modalShow(false)">
+                    <div>
+                        <img src="./img/arrows/close_b.png" alt="">
+                    </div>
+                </div>
+                <div class="infoWorker">
+                    <div class="infos">
+                        <div class="ava">
+                            <img src="" alt="">
+                        </div>
+                        <div>
+                            <ul>
+                                <li>
+                                    <span>Name:</span>
+                                    <span></span>
+                                </li>
+                                <li>
+                                    <span>Position:</span>
+                                    <span></span>
+                                </li>
+                                <li>
+                                    <span>Phone:</span>
+                                    <span></span>
+                                </li>
+                                <li>
+                                    <span>Emai:</span>
+                                    <span></span>
+                                </li>
+                                <li class="icon_list">
+                                    <a href="#">
+                                        <img src="./img/arrows/facebook.png" alt="">
+                                    </a>
+
+                                    <a href="#">
+                                        <img src="./img/arrows/IN.png" alt="">
+                                    </a>
+                                    <a href="#">
+                                        <img src="./img/arrows/instagram.png" alt="">
+                                    </a>
+                                    <a href="#">
+                                        <img src="./img/arrows/twitter.png" alt="">
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nullam ac sed eget. Dui in
+                            eget a
+                            tristique. Curabitur massa nec non egestas nisl. Lorem ipsum dolor sit amet, consectetur
+                            adipiscing elit. Dui in eget a tristique. Curabitur massa nec non egestas nisl. Lorem ipsum
+                            dolor sit amet, consectetur adipiscing elit.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section id="home">
+            <div class="background-color">
+                <div class="bigCircel">
+                    <img src="./img/desktop/BigCircelHeader.png" alt="">
+                </div>
+                <div class="minCircel">
+                    <img src="./img/desktop/CircelHeader.png" alt="">
+                </div>
+                <div class="backgorund-fon">
+
+                    <div class="content">
+                        <div class="blurBlock animate__animated" data-animate="animate__fadeInUp">
+                            <h1>Email marceting for fast-growing
+                                startups</h1>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id ut cursus dictum purus enim
+                                in in urna, suspendisse. Mauris, mollis sed sed ac.
+                            </p>
+                            <div class="buttons">
+                                <button class="active">start now</button>
+                                <button>read more</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <section id="pertners" class="animate__animated" data-animate="animate__fadeInUp">
+            <div class="container">
+                <h2 class="section-title">Our Partners</h2>
+                <div class="infoPartners ">
+                    <div class="textBlock">
+                        <div class="user">
+                            <div>
+                                <img src="./img/arrows/avatar.png" alt="">
+                            </div>
+                            <div class="text">
+                                <h5>Tom Dou</h5>
+                                <span>Front-End</span>
+                            </div>
+                        </div>
+                        <p class="info_for_partner">
+                            “123 Lorem ipsum dol. At pretium id viverra
+                            interdum nam odio ultricies. Diam leo, sed neque dui pulvinar condimentum pretium.”
+                        </p>
+                    </div>
+                    <div class="logos">
+                        <div onclick="partner(this)" data-info="123 Lorem ipsum dol. At pretium id viverra
+                        interdum nam odio ultricies. Diam leo, sed neque dui pulvinar condimentum pretium."><img
+                                src="./img/arrows/Partners_1.png" alt="">
+                        </div>
+                        <div onclick="partner(this)" data-info=" 456 Lorem ipsum dolor sit  sit amet, consectetur adipiscing elit. At pretium id viverra interdum nam
+                        odio ultricies. Diam leo, sed neque dui pulvinar condimentum pretium amet, consectetur adipiscing elit. At pretium id viverra interdum nam
+                        odio ultricies. Diam leo, sed neque dui pulvinar condimentum pretium. At pretium id viverra
+                        interdum nam odio ultricies. Diam leo, sed neque dui pulvinar condimentum pretium."><img
+                                src="./img/arrows/Partners_2.png" alt="">
+                        </div>
+                        <div onclick="partner(this)" data-info=" 789 Lorem ipsum dolor sit amet, consectetur adipiscing elit. At pretium id viverra interdum nam
+                        odio ultricies. Diam leo, sed neque dui pulvinar condimentum pretium. pretium."><img
+                                src="./img/arrows/Partners_3.png" alt="">
+                        </div>
+                        <div onclick="partner(this)" data-info=" 1011 Lorem ipsum dolor sit amet, consectetur adipiscing elit. At pretium id viverra interdum nam
+                        odio ultricies. Diam leo, sed neque dui pulvinar  pulvinar condimentum pretium."><img
+                                src="./img/arrows/Partners_4.png" alt="">
+                        </div>
+                        <div onclick="partner(this)" data-info=" 1213 Lorem ipsum dolor sit amet, consectetur adipiscing elit. At pretium id viverra interdum nam
+                        odio ultricies. Diam leo, sed neque dui pulvinar  sit amet, consectetur adipiscing elit. At pretium id viverra interdum nam
+                        odio ultricies. Diam leo, sed neque dui pulvinar condimentum pretium condimentum pretium. At pretium id viverra
+                        interdum nam odio ultricies. Diam leo, sed neque dui pulvinar condimentum pretium."><img
+                                src="./img/arrows/Partners_5.png" alt="">
+                        </div>
+                        <div onclick="partner(this)" data-info=" 1342 Lorem ipsum dolor sit amet, consectetur adipiscing elit. At pretium id viverra interdum nam
+                        odio ultricies. Diam leo, sed neque dui pulvinar sit amet, consectetur adipiscing elit. At pretium id viverra interdum nam
+                        odio ultricies. Diam leo, sed neque dui pulvinar condimentum pretium  sit amet, consectetur adipiscing elit. At pretium id viverra interdum nam
+                        odio ultricies. Diam leo, sed neque dui pulvinar condimentum pretium condimentum pretium. At pretium id viverra
+                        interdum nam odio ultricies. Diam leo, sed neque dui pulvinar condimentum pretium."><img
+                                src="./img/arrows/Partners_6.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="teams" class="animate__animated" data-animate="animate__fadeInUp">
+            <div class="container">
+                <h2 class="section-title">out team</h2>
+                <div class="infoTeam">
+                    <div class="text">
+                        <div>
+                            <h3>About</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nullam ac sed eget. Dui in
+                                eget a tristique. Curabitur massa nec non egestas nisl. Fusce nullam ac sed eget. Dui in
+                                eget a tristique. </p>
+                            <div class="absolute">
+                                <img src="./img/arrows/Cross.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slider-box">
+                        <div class="absolute">
+                            <img src="./img/arrows/Cross.png" alt="">
+                        </div>
+                        <div class="radioButtons">
+                            <div class="radioBox">
+                                <div>
+                                    <input type="radio" name="checkbox" id="checkbox_id_team_1" checked>
+                                    <label for="checkbox_id_team_1">Team 1</label>
+                                </div>
+                            </div>
+                            <div class="radioBox">
+                                <div><input type="radio" name="checkbox" id="checkbox_id_team_2">
+                                    <label for="checkbox_id_team_2">Team 2</label>
+                                </div>
+                            </div>
+                            <div class="radioBox">
+                                <div>
+                                    <input type="radio" name="checkbox" id="checkbox_id_team_3">
+                                    <label for="checkbox_id_team_3">Team 3</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slider">
+                            <div class="swiper mySwiper">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <img src="./img/arrows/slider_1.png" alt="">
+                                        <div class="info-work" data-name="1 Tom Dou" data-position="1 Fron-End"
+                                            data-phone="1 0996130954" data-main="1 amelnik464@gmail.com"
+                                            data-linkFacebook="#" data-linkInstagram="#" data-linkIN="#"
+                                            data-linkTwitter="#"
+                                            data-description="1 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nullam ac sed eget. Dui in eget a tristique. Curabitur massa nec non egestas nisl. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dui in eget a tristique. Curabitur massa nec non egestas nisl. Lorem ipsum dolor sit amet, consectetur adipiscing elit. ">
+                                            <h3>Tom Dou</h3>
+                                            <p>Fron-End</p>
+
+                                            <button class="active" onclick="modalInfoWorker(this)">Read more</button>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="./img/arrows/slider_2.png" alt="">
+                                        <div class="info-work" data-name="2 Tom Dou" data-position="2 Fron-End"
+                                            data-phone="2 0996130954" data-main="2 amelnik464@gmail.com"
+                                            data-linkFacebook="#" data-linkInstagram="#" data-linkIN="#"
+                                            data-linkTwitter="#"
+                                            data-description="2 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nullam ac sed eget. Dui in eget a tristique. Curabitur massa nec non egestas nisl. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dui in eget a tristique. Curabitur massa nec non egestas nisl. Lorem ipsum dolor sit amet, consectetur adipiscing elit. ">
+                                            <h3>Tom Dou</h3>
+                                            <p>Fron-End</p>
+
+                                            <button class="active" onclick="modalInfoWorker(this)">Read more</button>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="./img/arrows/slider_3.png" alt="">
+                                        <div class="info-work" data-name="3 Tom Dou" data-position="3 Fron-End"
+                                            data-phone="3 0996130954" data-main="3 amelnik464@gmail.com"
+                                            data-linkFacebook="#" data-linkInstagram="#" data-linkIN="#"
+                                            data-linkTwitter="#"
+                                            data-description="3 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nullam ac sed eget. Dui in eget a tristique. Curabitur massa nec non egestas nisl. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dui in eget a tristique. Curabitur massa nec non egestas nisl. Lorem ipsum dolor sit amet, consectetur adipiscing elit. ">
+                                            <h3>Tom Dou</h3>
+                                            <p>Fron-End</p>
+
+                                            <button class="active" onclick="modalInfoWorker(this)">Read more</button>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="./img/arrows/slider_4.png" alt="">
+                                        <div class="info-work" data-name="4 Tom Dou" data-position="4 Fron-End"
+                                            data-phone="4 0996130954" data-main="4 amelnik464@gmail.com"
+                                            data-linkFacebook="#" data-linkInstagram="#" data-linkIN="#"
+                                            data-linkTwitter="#"
+                                            data-description="4 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nullam ac sed eget. Dui in eget a tristique. Curabitur massa nec non egestas nisl. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dui in eget a tristique. Curabitur massa nec non egestas nisl. Lorem ipsum dolor sit amet, consectetur adipiscing elit. ">
+                                            <h3>Tom Dou</h3>
+                                            <p>Fron-End</p>
+
+                                            <button class="active" onclick="modalInfoWorker(this)">Read more</button>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="./img/arrows/slider_1.png" alt="">
+                                        <div class="info-work" data-name="5 Tom Dou" data-position="5 Fron-End"
+                                            data-phone="5 0996130954" data-main="5 amelnik464@gmail.com"
+                                            data-linkFacebook="#" data-linkInstagram="#" data-linkIN="#"
+                                            data-linkTwitter="#"
+                                            data-description="5 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nullam ac sed eget. Dui in eget a tristique. Curabitur massa nec non egestas nisl. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dui in eget a tristique. Curabitur massa nec non egestas nisl. Lorem ipsum dolor sit amet, consectetur adipiscing elit. ">
+                                            <h3>Tom Dou</h3>
+                                            <p>Fron-End</p>
+
+                                            <button class="active" onclick="modalInfoWorker(this)">Read more</button>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="./img/arrows/slider_2.png" alt="">
+                                        <div class="info-work" data-name="6 Tom Dou" data-position="6 Fron-End"
+                                            data-phone="6 0996130954" data-main="6 amelnik464@gmail.com"
+                                            data-linkFacebook="#" data-linkInstagram="#" data-linkIN="#"
+                                            data-linkTwitter="#"
+                                            data-description="6 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nullam ac sed eget. Dui in eget a tristique. Curabitur massa nec non egestas nisl. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dui in eget a tristique. Curabitur massa nec non egestas nisl. Lorem ipsum dolor sit amet, consectetur adipiscing elit. ">
+                                            <h3>Tom Dou</h3>
+                                            <p>Fron-End</p>
+
+                                            <button class="active" onclick="modalInfoWorker(this)">Read more</button>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="./img/arrows/slider_3.png" alt="">
+                                        <div class="info-work" data-name="7 Tom Dou" data-position="7 Fron-End"
+                                            data-phone="7 0996130954" data-main="7 amelnik464@gmail.com"
+                                            data-linkFacebook="#" data-linkInstagram="#" data-linkIN="#"
+                                            data-linkTwitter="#"
+                                            data-description="7 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nullam ac sed eget. Dui in eget a tristique. Curabitur massa nec non egestas nisl. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dui in eget a tristique. Curabitur massa nec non egestas nisl. Lorem ipsum dolor sit amet, consectetur adipiscing elit. ">
+                                            <h3>Tom Dou</h3>
+                                            <p>Fron-End</p>
+
+                                            <button class="active" onclick="modalInfoWorker(this)">Read more</button>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="info-swiper">
+                                    <div class="swiper-pagination"></div>
+                                    <div class="arrows">
+                                        <div class="swiper-button-prev">
+                                            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor"
+                                                class="bi bi-arrow-left" viewBox="0 0 16 16">
+                                                <path fill-rule="evenodd"
+                                                    d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z" />
+                                            </svg>
+                                        </div>
+                                        <div class="swiper-button-next">
+                                            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor"
+                                                class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                                <path fill-rule="evenodd"
+                                                    d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                                            </svg>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contact" class="animate__animated" data-animate="animate__fadeInUp">
+            <div class="container">
+                <div class="info">
+                    <h2 class="section-title">out team</h2>
+                    <div class="block-form">
+                        <form action="work">
+                            <div class="inputs">
+                                <div>
+                                    <input type="text" placeholder="Your Name">
+                                    <input type="text" placeholder="Phone Number">
+
+                                </div>
+                                <div>
+                                    <input type="text" placeholder="Email Address">
+                                    <select>
+                                        <option value="" disabled selected>Choose your job type</option>
+                                        <option value="html">HTML</option>
+                                        <option value="css">CSS</option>
+                                        <option value="php">React</option>
+                                        <option value="js">JavaScript</option>
+                                    </select>
+                                </div>
+                                <div>
+                                    <textarea type="text" placeholder="Message"></textarea>
+                                </div>
+                            </div>
+                            <div class="buttons">
+                                <div class="btn-file">
+                                    <img src="./img/arrows/upload.png" alt="">
+                                    Upload your CV
+                                    <input type="file" name="cr">
+                                </div>
+
+
+                                <button class="active">test</button>
+                            </div>
+                        </form>
+                        <div class="imgBottom">
+                            <img src="./img/desktop/PuncksContant.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="fon-contact">
+                    <img class="pc" src="./img/desktop/IllustrationContact.png" alt="">
+                    <img class="mob" src="./img/phone/IllustrationPhone.png" alt="">
+                </div>
+            </div>
+
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <h2 class="section-title">Where You Can Find Us?</h2>
+            <div class="info-block">
+                <div class="info">
+                    <div>
+                        <h4>Office 1</h4>
+                        <ul>
+                            <li>
+                                <img src="./img/arrows/map.png" alt="">
+                                <span>Lasnamae linnaosa, Pae tn 25-47</span>
+                            </li>
+                            <li>
+                                <img src="./img/arrows/map.png" alt="">
+                                <span>
+                                    <a href="mailto:username@mail.com">username@mail.com</a>
+                                </span>
+
+                            </li>
+                            <li>
+                                <img src="./img/arrows/map.png" alt="">
+                                <span>
+                                    <a href="tel:+18475555555">+3125789075</a>
+                                </span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4>Office 1</h4>
+                        <ul>
+                            <li>
+                                <img src="./img/arrows/map.png" alt="">
+                                <span>Lasnamae linnaosa, Pae tn 25-47</span>
+                            </li>
+                            <li>
+                                <img src="./img/arrows/map.png" alt="">
+                                <span>
+                                    <a href="mailto:username@mail.com">username@mail.com</a>
+                                </span>
+                            </li>
+                            <li>
+                                <img src="./img/arrows/map.png" alt="">
+                                <span><a href="tel:+18475555555">+3125789075</a></span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4>Socials</h4>
+                        <ul class="iconBlock">
+                            <li>
+                                <a href="https://www.facebook.com">
+                                    <img src="./img/arrows/facebook.png" alt="">
+                                </a>
+
+                                <a href="https://likein.ua">
+                                    <img src="./img/arrows/IN.png" alt="">
+                                </a>
+
+                                <a href="http://instagram.com">
+                                    <img src="./img/arrows/instagram.png" alt="">
+                                </a>
+
+                                <a href="http://twitter.com">
+                                    <img src="./img/arrows/twitter.png" alt="">
+                                </a>
+                            </li>
+                            <li>
+                                <p>Privacy Policy</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="backgroundImg"></div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="./script.js"></script>
+</body>
+
+</html>

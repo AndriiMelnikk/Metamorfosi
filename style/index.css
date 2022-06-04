@@ -1,0 +1,296 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  scrollbar-width: none;
+  font-family: 'Open Sans', sans-serif;
+}
+
+*::-webkit-scrollbar {
+  display: none;
+}
+
+*::-moz-scrollbar {
+  display: none;
+}
+
+html, body {
+  overflow-x: hidden;
+}
+
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+body {
+  line-height: 1;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+nav ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+a {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+  background-color: #ff9;
+  color: #000;
+  text-decoration: none;
+}
+
+/* change colours to suit your needs */
+mark {
+  background-color: #ff9;
+  color: #000;
+  font-style: italic;
+  font-weight: bold;
+}
+
+del {
+  text-decoration: line-through;
+}
+
+abbr[title],
+dfn[title] {
+  border-bottom: 1px dotted;
+  cursor: help;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* change border colour to suit your needs */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #cccccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+input,
+select {
+  vertical-align: middle;
+}
+
+button {
+  cursor: pointer;
+  color: white;
+  font-weight: 400;
+  border: none;
+  padding: 0 60px;
+  font-size: 1.2em;
+  border: 1px solid white;
+  border-radius: 36px;
+  height: calc(30px + 1.2em);
+  background: rgba(255, 255, 255, 0);
+  text-transform: capitalize;
+}
+
+button.active {
+  border-color: red;
+  background: red;
+}
+
+h2.section-title {
+  color: #101020;
+  font-size: 3.3em;
+  text-transform: capitalize;
+}
+
+@media screen and (max-width: 769px) {
+  h2.section-title {
+    font-size: 2.4em;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  h2.section-title {
+    font-size: 2em;
+  }
+}
+
+.container {
+  padding: 0 50px;
+  max-width: 1500px;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 769px) {
+  .container {
+    font-size: 0.8em;
+    padding: 0 30px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .container {
+    padding: 0 20px;
+  }
+}
+
+input[type="radio"] + label::before {
+  content: '';
+  display: inline-block;
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  top: 4px;
+  left: 14px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 50% 50%;
+}
+
+input[type="radio"] + label::after {
+  content: '';
+  display: inline-block;
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  border: 2px solid #000;
+  border-radius: 50%;
+  top: 0px;
+  left: 10px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 50% 50%;
+}
+
+input[type="radio"]:checked + label::before {
+  background-color: white;
+}
+
+input[type="radio"]:checked + label::after {
+  border-color: white;
+}
+
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+  color: #585858;
+}
+
+input:-ms-input-placeholder, textarea:-ms-input-placeholder {
+  color: #585858;
+}
+
+input::-ms-input-placeholder, textarea::-ms-input-placeholder {
+  color: #585858;
+}
+
+input::placeholder, textarea::placeholder {
+  color: #585858;
+}
+/*# sourceMappingURL=index.css.map */
